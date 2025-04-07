@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.square {
+    display: flex;
+    width: 30px;
+    height: 20px;
+    background-color: azure;
+}
