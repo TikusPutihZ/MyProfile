@@ -14,7 +14,11 @@ h1 {
 
 .square {
     display: flex;
-    width: 30px;
-    height: 20px;
+    width: 100px;
+    height: 40px;
     background-color: rgb(49, 49, 47);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
