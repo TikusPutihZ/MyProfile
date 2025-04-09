@@ -112,3 +112,28 @@
 h3 {
     font-family: "Arial Black", Gadget, sans-serif;
 }
+
+.header-border {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding-left: 20%;
+}
+
+.header-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
