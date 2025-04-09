@@ -138,17 +138,24 @@ h3 {
 }
 
 .personal-bio {
+    width: 1000px;
+    height: 400px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 17%;
     gap: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .bio-picture {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
+    margin-left: 40px;
 }
 
 .bio-picture img{
@@ -162,9 +169,31 @@ h3 {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    margin-right: 10px;
 }
 
 .bio-text p {
     margin: 5px 0;
+}
+
+.skill-border {
+    width: 1000px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-left: 17%;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-border table{
+    width:50%;
+    margin-left: 23%;
+}
+
+.skill-border th{
+    font-family: "Arial Black", Gadget, sans-serif;
 }
