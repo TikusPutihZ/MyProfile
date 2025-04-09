@@ -81,6 +81,20 @@
     font-size: 20px;
 }
 
+.end-picture {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.end-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px
+}
+
 .home-border {
     display: flex;
     width: 60px;
@@ -122,8 +136,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOX4FTwxJfMFR81NlxeKXURcblKUt5P9oDQA&s'); */
-    background: linear-gradient(to bottom, #03023a, #4d045f);
+    background-image: url('https://tse1.mm.bing.net/th?id=OIG3.eaaFjjC7eUKsG6V4u9ek&pid=ImgGn');
+    /* background: linear-gradient(to bottom, #03023a, #4d045f); */
     background-size: cover;
     background-position: center;
     overflow: hidden;
