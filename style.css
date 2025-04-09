@@ -136,8 +136,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://tse1.mm.bing.net/th?id=OIG3.eaaFjjC7eUKsG6V4u9ek&pid=ImgGn');
-    /* background: linear-gradient(to bottom, #03023a, #4d045f); */
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -211,3 +209,29 @@ h3 {
 .skill-border th{
     font-family: "Arial Black", Gadget, sans-serif;
 }
+
+.directory-project {
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 17%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.directory-project h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.directory-project img {
+    width: 70%;
+    padding-left: 12%;
+    border-radius: 10px;
+}
+
