@@ -258,7 +258,7 @@ h3 {
     border-radius: 0 0 10px 10px;
 }
 
-.comic-img {
+.comic-img, .game-img {
     display: flex;
     width: 100%;
     height: 30%;
@@ -271,7 +271,7 @@ h3 {
 
 }
 
-.comic-img img {
+.comic-img img, .game-img img {
     object-fit: cover;
     width: 300px;
     height: 190px;
