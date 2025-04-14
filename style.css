@@ -325,9 +325,8 @@ h3 {
 
 .contact-card {
     width: 1000px;
-    height: 300px;
+    height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     margin-top: 50px;
     margin-left: 17%;
     justify-content: center;
@@ -343,6 +342,11 @@ h3 {
 }
 
 .contact-text img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.contact-text p {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
 }
