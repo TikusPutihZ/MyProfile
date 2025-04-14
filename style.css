@@ -279,3 +279,44 @@ h3 {
     margin-bottom: 10px;
     border-radius: 15px;
 }
+
+.gallery-container {
+    column-count: 4;
+    column-gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-image: url("https://w0.peakpx.com/wallpaper/1018/840/HD-wallpaper-black-color-animal-doodle-dark.jpg");
+}
+
+.card-img {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #252525;
+    border: 4px solid black;
+}
+
+.card-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img h3 {
+    padding-left: 13px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #a3a3a3;
+}
+
+.card-img p {
+    padding-left: 13px;
+    font-size: 16px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #fff;
+}
