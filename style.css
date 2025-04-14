@@ -284,6 +284,7 @@ h3 {
     column-count: 4;
     column-gap: 20px;
     padding: 20px;
+    margin-top: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background-image: url("https://w0.peakpx.com/wallpaper/1018/840/HD-wallpaper-black-color-animal-doodle-dark.jpg");
@@ -320,4 +321,28 @@ h3 {
     font-size: 16px;
     font-family: Impact, Charcoal, sans-serif;
     color: #fff;
+}
+
+.contact-card {
+    width: 1000px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 17%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.contact-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-text img {
+    height: 20px;
+    width: 20px;
 }
