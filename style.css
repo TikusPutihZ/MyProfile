@@ -161,6 +161,25 @@ h3 {
     height: 5%;
 }
 
+.home-image {
+    width: 1000px;
+    height: auto;
+    margin-left: 17%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+}
+
+.home-image p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
 .header-border {
     position: relative;
     width: 50%;
