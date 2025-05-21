@@ -23,6 +23,18 @@
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
+.banner-logo {
+    position: absolute;
+    left: -350px;
+    width: 100px;
+    height: auto;
+}
+
+.banner-logo img {
+    width: 100%;
+    height: 100%;
+}
+
 .profile-border {
     display: flex;
     position: relative;
